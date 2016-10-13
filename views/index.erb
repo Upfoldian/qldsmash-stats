@@ -1,0 +1,36 @@
+<span>Put some player names in, seperated by a comma. You'll need to put the tag listed on qldsmash</span></br></br>
+<form action="/" method="post">
+  <span>Player/s you want stats for:</span></br>
+  <input type="text" name="players" placeholder ="e.g Boozer, Waveguider"></br></br>
+  <span>Earliest date you want matches from (defaults to smash 4 release date):</span></br>
+  <input type="date" name= "startDate" value="2014-11-29"></br></br>
+  <span>What game you want:</span></br>
+  <select name="game">
+  	  <option value="Smash4">Smash 4</option>
+	  <option value="Melee">Melee </option>
+  </select></br></br>
+
+  <span></br>Better implementation of this coming soon :)</span></br></br>
+  <span>Enter a player ID to find head-to-head stats against.</br>
+  This is the number that appears next to a player's region in stats (top left of output):</br></span>
+  <input type="text" name="against" placeholder ="1105"></br></br>
+  <input type="submit" value ="stat me up">	</br></br>
+</form>
+
+</br></br>
+<span>Last Updated: <%= updated%></span>
+
+
+
+
+</br></br>Planned features (unordered):</br>
+
+<ul>
+  <li><strike>actual db backend</strike></li>
+  <li>head-to-head stats (in progress)</li>
+  <li>API stuff (in progress)</li>
+  <li>Better error messages than the 'blargh' page (b-but i like blargh)</li>
+  <li>stream and overlay-friendly version of stats (soon)</li>
+  <li>frontend not made of cardboard and plaintext (soon)</li>
+  <li>hidden, player-specific, 'fun' stats (???)</li>
+</ul>
