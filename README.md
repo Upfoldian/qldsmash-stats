@@ -1,5 +1,5 @@
 # qldsmash-stats
-Ruby (sinatra) based app that displays player stats using the data from qldsmash. If you want to suggest features or anything like that, tweet [@SydneyBaka](https://twitter.com/SydneyBaka) or contact me on github.
+Ruby (sinatra) based app that displays player stats using the data from qldsmash. If you want to suggest features or anything like that, just send me a message here :D
 
 
 
